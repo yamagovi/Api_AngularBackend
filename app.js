@@ -12,7 +12,7 @@ app.use('/api/empleados',require('./rutas/empleado.rutas'));
 //})
 //reemplazo el comentario de arriba por:
 app.listen(process.env.PORT || 3005, () => {
-  console.log(`El servidor está corriendo en el puerto ${process.env.PORT || 3000}`);
+  console.log(`El servidor está corriendo en el puerto ${process.env.PORT || 3005}`);
 });
 
 
